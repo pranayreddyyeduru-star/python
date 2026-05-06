@@ -12,6 +12,7 @@
 a=str(input("Give me a word: "))
 for i in (a):
     if i=="A":
+        print("A is found")
         break
     else:
         print("A not found")
